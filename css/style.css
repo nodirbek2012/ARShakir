@@ -1,0 +1,166 @@
+body {
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  header .nav {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
+@media (max-width: 420px) {
+  header .nav__content {
+    flex-direction: column;
+    gap: 10px !important;
+  }
+}
+@media (max-width: 340px) {
+  header .nav__content > ul {
+    flex-direction: column;
+  }
+}
+
+.start button {
+  width: 160px;
+}
+@media (max-width: 348px) {
+  .start button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .start__content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 991px) {
+  .start__content > div {
+    width: 100% !important;
+  }
+}
+@media (max-width: 991px) {
+  .start__content-block {
+    text-align: center;
+  }
+}
+.start__content-block-child {
+  text-align: start;
+}
+@media (max-width: 500px) {
+  .start__content-block-child {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.start__img {
+  width: 660px;
+}
+@media (max-width: 1300px) {
+  .start__img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .start__img {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .brand__block {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.brand__block > img {
+  opacity: 0.5;
+}
+
+@media (max-width: 530px) {
+  .choice__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 530px) {
+  .choice__content > div {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 880px) {
+  .tab__child {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 880px) {
+  .tab__child-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 455px) {
+  .tab__child > img {
+    width: 100%;
+  }
+}
+
+.accordion-item {
+  border-radius: 10px;
+}
+.accordion-header > button {
+  color: black !important;
+  font-size: 24px;
+  background: #99EFD0 !important;
+  border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  .startup img {
+    width: 100%;
+  }
+}
+
+.reason__content {
+  background: rgba(60, 62, 125, 0.1882352941);
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.reason__content > form > input {
+  color: white;
+  width: 350px;
+  height: 50px;
+  background: rgba(110, 113, 206, 0.1882352941);
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.reason__content > form > button {
+  color: white;
+  background: #F2994A;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-weight: 700;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -10px;
+}
+
+/* FOOTER */
+.footer__icons > i {
+  background: #211d55;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/* FOOTER *//*# sourceMappingURL=style.css.map */
